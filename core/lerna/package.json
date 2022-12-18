@@ -27,9 +27,6 @@
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
   },
-  "publishConfig": {
-    "tag": "next"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lerna/lerna.git",
@@ -39,7 +36,7 @@
     "migrations": "./migrations.json"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\""
   },
   "dependencies": {
     "@lerna/add": "6.2.0",
@@ -65,5 +62,15 @@
     "npmlog": "^6.0.2",
     "nx": ">=14.8.6 < 16",
     "typescript": "^3 || ^4"
+  },
+  "wix": {
+    "artifact": {
+      "groupId": "com.wixpress",
+      "artifactId": "lerna-version"
+    }
+  },
+  "publishConfig": {
+    "registry": "http://npm.dev.wixpress.com/",
+    "versionBumpStrategy": "manual"
   }
 }
