@@ -111,7 +111,6 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "@lerna-test/helpers": "file:helpers",
     "@nrwl/devkit": "15.2.1",
     "@nrwl/eslint-plugin-nx": "15.2.1",
     "@nrwl/jest": "15.2.1",
