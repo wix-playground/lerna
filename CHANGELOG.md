@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.4.0](https://github.com/lerna/lerna/compare/v6.3.0...v6.4.0) (2022-12-18)
+
+### Features
+
+- change bin name to `wix-lerna` ([978237b](https://github.com/lerna/lerna/commit/978237b13e0bc69a6ca7dfa9714987358a6ef423))
+
 # [6.3.0](https://github.com/lerna/lerna/compare/v6.2.0...v6.3.0) (2022-12-18)
 
 ### Features
