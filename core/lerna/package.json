@@ -14,7 +14,7 @@
     "email": "sebmck@gmail.com"
   },
   "bin": {
-    "lerna": "cli.js"
+    "wix-lerna": "cli.js"
   },
   "files": [
     "index.js",
