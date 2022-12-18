@@ -18,7 +18,7 @@ const linkCmd = require("@lerna/link/command");
 const listCmd = require("@lerna/list/command");
 const publishCmd = require("@lerna/publish/command");
 const runCmd = require("@lerna/run/command");
-const versionCmd = require("@lerna/version/command");
+const versionCmd = require("@wix/lerna-version/command");
 
 const repairCmd = require("./commands/repair/command");
 const addCachingCmd = require("./commands/add-caching/command");
