@@ -1,6 +1,6 @@
 {
   "name": "@wix/lerna",
-  "version": "6.2.0",
+  "version": "6.3.0",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
     "lerna",
@@ -55,8 +55,8 @@
     "@lerna/list": "6.2.0",
     "@lerna/publish": "6.2.0",
     "@lerna/run": "6.2.0",
-    "@wix/lerna-version": "6.2.0",
     "@nrwl/devkit": ">=14.8.6 < 16",
+    "@wix/lerna-version": "6.3.0",
     "import-local": "^3.0.2",
     "inquirer": "^8.2.4",
     "npmlog": "^6.0.2",
