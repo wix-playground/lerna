@@ -9,17 +9,17 @@ module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;
 module.exports.throwIfReleased = throwIfReleased;
 module.exports.throwIfUncommitted = mkThrowIfUncommitted();
 
-function checkWorkingTree({ cwd } = {}) {
+function checkWorkingTree(options = {}) {
   let chain = Promise.resolve();
 
-  chain = chain.then(() => describeRef({ cwd }));
+  chain = chain.then(() => describeRef(options));
 
   // wrap each test separately to allow all applicable errors to be reported
   const tests = [
     // prevent duplicate versioning
     chain.then(throwIfReleased),
     // prevent publish of uncommitted changes
-    chain.then(mkThrowIfUncommitted({ cwd })),
+    chain.then(mkThrowIfUncommitted(options)),
   ];
 
   // passes through result of describeRef() to aid composability
