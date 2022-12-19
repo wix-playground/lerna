@@ -257,7 +257,10 @@ class VersionCommand extends Command {
       const { forcePublish, conventionalCommits, conventionalGraduate } = this.options;
       const checkUncommittedOnly = forcePublish || (conventionalCommits && conventionalGraduate);
       const check = checkUncommittedOnly ? throwIfUncommitted : checkWorkingTree;
-      tasks.unshift(() => check(this.execOpts));
+      tasks.unshift(() => check({
+        ...this.execOpts,
+        match: this.options.match
+      }));
     } else {
       this.logger.warn("version", "Skipping working tree validation, proceed at your own risk");
     }
