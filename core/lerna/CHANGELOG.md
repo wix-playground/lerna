@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/lerna/lerna/compare/v6.4.0...v6.5.0) (2022-12-19)
+
+**Note:** Version bump only for package @wix/lerna
+
 # [6.4.0](https://github.com/lerna/lerna/compare/v6.3.0...v6.4.0) (2022-12-18)
 
 ### Features

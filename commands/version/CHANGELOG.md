@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.5.0](https://github.com/lerna/lerna/compare/v6.4.0...v6.5.0) (2022-12-19)
+
+### Features
+
+- **version:** Pass `--match` option to checkWorkingTree ([#3](https://github.com/lerna/lerna/issues/3)) ([6807ae3](https://github.com/lerna/lerna/commit/6807ae30a9ac614efe736fe836d28dc9ef1ac3aa))
+
 # [6.3.0](https://github.com/lerna/lerna/compare/v6.2.0...v6.3.0) (2022-12-18)
 
 ### Features
