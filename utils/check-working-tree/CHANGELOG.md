@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.6.0](https://github.com/lerna/lerna/compare/v6.5.0...v6.6.0) (2022-12-25)
+
+### Bug Fixes
+
+- Reference to `@wix/lerna-check-working-tree` ([#5](https://github.com/lerna/lerna/issues/5)) ([f41e0b9](https://github.com/lerna/lerna/commit/f41e0b961d7a7eeed92ce16d76a7f675d7075645))
+
 # [6.2.0](https://github.com/lerna/lerna/compare/v6.1.0...v6.2.0) (2022-12-13)
 
 **Note:** Version bump only for package @lerna/check-working-tree
