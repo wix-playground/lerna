@@ -15,10 +15,14 @@
   "files": [
     "command.js",
     "index.js",
+    "cli.js",
     "lib",
     "!lib/__mocks__"
   ],
   "main": "index.js",
+  "bin": {
+    "wix-lerna-version": "cli.js"
+  },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
   },
@@ -31,6 +35,7 @@
     "test": "echo \"Run tests from root\""
   },
   "dependencies": {
+    "@lerna/cli": "6.2.0",
     "@lerna/child-process": "6.2.0",
     "@lerna/collect-updates": "6.2.0",
     "@lerna/command": "6.2.0",
