@@ -746,13 +746,6 @@
     execa "^5.0.0"
     strong-log-transformer "^2.1.0"
 
-"@lerna/child-process@file:core/child-process":
-  version "6.2.0"
-  dependencies:
-    chalk "^4.1.0"
-    execa "^5.0.0"
-    strong-log-transformer "^2.1.0"
-
 "@lerna/clean@6.2.0":
   version "6.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/clean/-/clean-6.2.0.tgz#9accc27bba400d14aea0ab2842e42e314dbb3c93"
@@ -777,10 +770,12 @@
     npmlog "^6.0.2"
     yargs "^16.2.0"
 
-"@lerna/collect-uncommitted@6.2.0", "@lerna/collect-uncommitted@file:utils/collect-uncommitted":
+"@lerna/collect-uncommitted@6.2.0":
   version "6.2.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/collect-uncommitted/-/collect-uncommitted-6.2.0.tgz#25a87744c88a5e80b94d3d7836b1ac63cfcdc0a9"
+  integrity sha1-Jah3RMiKXoC5TT14NrGsY8/NwKk=
   dependencies:
-    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-collect-uncommitted-6.2.0-c5edfaef-2c1a-485a-918b-5c4298902a2a-1671974534302/node_modules/core/child-process"
+    "@lerna/child-process" "6.2.0"
     chalk "^4.1.0"
     npmlog "^6.0.2"
 
@@ -864,12 +859,6 @@
   integrity sha1-OwryS6zB2N19jfGPh3iUw5hIMgk=
   dependencies:
     "@lerna/child-process" "6.2.0"
-    npmlog "^6.0.2"
-
-"@lerna/describe-ref@file:utils/describe-ref":
-  version "6.2.0"
-  dependencies:
-    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-describe-ref-6.2.0-1313317f-737c-496b-89ae-4e30da06d949-1671974534303/node_modules/core/child-process"
     npmlog "^6.0.2"
 
 "@lerna/diff@6.2.0":
@@ -1325,11 +1314,6 @@
   version "6.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/validation-error/-/validation-error-6.2.0.tgz#02da1d5f30af9170001864d407c9b790c04bbb83"
   integrity sha1-AtodXzCvkXAAGGTUB8m3kMBLu4M=
-  dependencies:
-    npmlog "^6.0.2"
-
-"@lerna/validation-error@file:core/validation-error":
-  version "6.2.0"
   dependencies:
     npmlog "^6.0.2"
 
