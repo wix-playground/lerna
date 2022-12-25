@@ -728,19 +728,17 @@
     "@lerna/listable" "6.2.0"
     "@lerna/output" "6.2.0"
 
-"@lerna/check-working-tree@6.2.0":
-  version "6.2.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/check-working-tree/-/check-working-tree-6.2.0.tgz#63abf7edcf6ba0dde4e04c2e92e544cf3c3a90d3"
-  integrity sha1-Y6v37c9roN3k4EwukuVEzzw6kNM=
-  dependencies:
-    "@lerna/collect-uncommitted" "6.2.0"
-    "@lerna/describe-ref" "6.2.0"
-    "@lerna/validation-error" "6.2.0"
-
 "@lerna/child-process@6.2.0":
   version "6.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/child-process/-/child-process-6.2.0.tgz#5e29b559ac6a68d9891689d8c35a7425081d72cd"
   integrity sha1-Xim1WaxqaNmJFonYw1p0JQgdcs0=
+  dependencies:
+    chalk "^4.1.0"
+    execa "^5.0.0"
+    strong-log-transformer "^2.1.0"
+
+"@lerna/child-process@file:core/child-process":
+  version "6.2.0"
   dependencies:
     chalk "^4.1.0"
     execa "^5.0.0"
@@ -770,12 +768,10 @@
     npmlog "^6.0.2"
     yargs "^16.2.0"
 
-"@lerna/collect-uncommitted@6.2.0":
+"@lerna/collect-uncommitted@file:utils/collect-uncommitted":
   version "6.2.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/collect-uncommitted/-/collect-uncommitted-6.2.0.tgz#25a87744c88a5e80b94d3d7836b1ac63cfcdc0a9"
-  integrity sha1-Jah3RMiKXoC5TT14NrGsY8/NwKk=
   dependencies:
-    "@lerna/child-process" "6.2.0"
+    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-collect-uncommitted-6.2.0-7b1afeda-5e2c-4083-a336-768c0b1fd7b9-1671974196206/node_modules/core/child-process"
     chalk "^4.1.0"
     npmlog "^6.0.2"
 
@@ -859,6 +855,12 @@
   integrity sha1-OwryS6zB2N19jfGPh3iUw5hIMgk=
   dependencies:
     "@lerna/child-process" "6.2.0"
+    npmlog "^6.0.2"
+
+"@lerna/describe-ref@file:utils/describe-ref":
+  version "6.2.0"
+  dependencies:
+    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-describe-ref-6.2.0-30482cc6-4822-41db-b87e-58666f16abef-1671974196208/node_modules/core/child-process"
     npmlog "^6.0.2"
 
 "@lerna/diff@6.2.0":
@@ -1317,6 +1319,11 @@
   dependencies:
     npmlog "^6.0.2"
 
+"@lerna/validation-error@file:core/validation-error":
+  version "6.2.0"
+  dependencies:
+    npmlog "^6.0.2"
+
 "@lerna/version@6.2.0":
   version "6.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/version/-/version-6.2.0.tgz#69091ee9b7874bbf4f7a98ec0ae6630752f7bf8a"
@@ -1527,21 +1534,10 @@
   dependencies:
     nx "15.3.3"
 
-"@nrwl/devkit@15.2.1":
+"@nrwl/devkit@15.2.1", "@nrwl/devkit@>=14.8.6 < 16":
   version "15.2.1"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@nrwl/devkit/-/devkit-15.2.1.tgz#3907ee18d4bcb9ab36fc950c48c9cb0466ff8ab8"
   integrity sha1-OQfuGNS8uas2/JUMSMnLBGb/irg=
-  dependencies:
-    "@phenomnomnominal/tsquery" "4.1.1"
-    ejs "^3.1.7"
-    ignore "^5.0.4"
-    semver "7.3.4"
-    tslib "^2.3.0"
-
-"@nrwl/devkit@>=14.8.6 < 16":
-  version "15.3.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@nrwl/devkit/-/devkit-15.3.3.tgz#8a038334cf5b563befdad4b201e0b146dfd2969a"
-  integrity sha1-igODNM9bVjvv2tSyAeCxRt/Slpo=
   dependencies:
     "@phenomnomnominal/tsquery" "4.1.1"
     ejs "^3.1.7"

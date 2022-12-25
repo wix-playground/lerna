@@ -7,9 +7,9 @@ const { collectUncommitted } = require("@lerna/collect-uncommitted");
 module.exports.checkWorkingTree = checkWorkingTree;
 module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;
 module.exports.throwIfReleased = throwIfReleased;
-module.exports.throwIfUncommitted = mkThrowIfUncommitted();
 
 function checkWorkingTree(options = {}) {
+  console.log(options);
   let chain = Promise.resolve();
 
   chain = chain.then(() => describeRef(options));

@@ -3,6 +3,7 @@
   "private": true,
   "description": "lerna dog-fooding lerna",
   "workspaces": [
+    "utils/check-working-tree",
     "commands/version",
     "core/lerna"
   ],
@@ -38,6 +39,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lerna/lerna.git"
+  },
+  "resolutions": {
+    "@nrwl/devkit": "15.2.1"
   },
   "license": "MIT",
   "homepage": "https://lerna.js.org",

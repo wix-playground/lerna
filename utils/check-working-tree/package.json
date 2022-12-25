@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/check-working-tree",
+  "name": "@wix/lerna-check-working-tree",
   "version": "6.2.0",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
