@@ -9,7 +9,6 @@ module.exports.mkThrowIfUncommitted = mkThrowIfUncommitted;
 module.exports.throwIfReleased = throwIfReleased;
 
 function checkWorkingTree(options = {}) {
-  console.log(options);
   let chain = Promise.resolve();
 
   chain = chain.then(() => describeRef(options));

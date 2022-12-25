@@ -728,6 +728,15 @@
     "@lerna/listable" "6.2.0"
     "@lerna/output" "6.2.0"
 
+"@lerna/check-working-tree@6.2.0":
+  version "6.2.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/check-working-tree/-/check-working-tree-6.2.0.tgz#63abf7edcf6ba0dde4e04c2e92e544cf3c3a90d3"
+  integrity sha1-Y6v37c9roN3k4EwukuVEzzw6kNM=
+  dependencies:
+    "@lerna/collect-uncommitted" "6.2.0"
+    "@lerna/describe-ref" "6.2.0"
+    "@lerna/validation-error" "6.2.0"
+
 "@lerna/child-process@6.2.0":
   version "6.2.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/@lerna/child-process/-/child-process-6.2.0.tgz#5e29b559ac6a68d9891689d8c35a7425081d72cd"
@@ -768,10 +777,10 @@
     npmlog "^6.0.2"
     yargs "^16.2.0"
 
-"@lerna/collect-uncommitted@file:utils/collect-uncommitted":
+"@lerna/collect-uncommitted@6.2.0", "@lerna/collect-uncommitted@file:utils/collect-uncommitted":
   version "6.2.0"
   dependencies:
-    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-collect-uncommitted-6.2.0-7b1afeda-5e2c-4083-a336-768c0b1fd7b9-1671974196206/node_modules/core/child-process"
+    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-collect-uncommitted-6.2.0-c5edfaef-2c1a-485a-918b-5c4298902a2a-1671974534302/node_modules/core/child-process"
     chalk "^4.1.0"
     npmlog "^6.0.2"
 
@@ -860,7 +869,7 @@
 "@lerna/describe-ref@file:utils/describe-ref":
   version "6.2.0"
   dependencies:
-    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-describe-ref-6.2.0-30482cc6-4822-41db-b87e-58666f16abef-1671974196208/node_modules/core/child-process"
+    "@lerna/child-process" "file:../../Library/Caches/Yarn/v6/npm-@lerna-describe-ref-6.2.0-1313317f-737c-496b-89ae-4e30da06d949-1671974534303/node_modules/core/child-process"
     npmlog "^6.0.2"
 
 "@lerna/diff@6.2.0":
