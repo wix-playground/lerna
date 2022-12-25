@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "@lerna/cli": "6.2.0",
-    "@lerna/check-working-tree": "6.2.0",
     "@lerna/child-process": "6.2.0",
     "@lerna/collect-updates": "6.2.0",
     "@lerna/command": "6.2.0",
@@ -51,6 +50,7 @@
     "@lerna/temp-write": "6.2.0",
     "@lerna/validation-error": "6.2.0",
     "@nrwl/devkit": ">=14.8.6 < 16",
+    "@wix/lerna-check-working-tree": "6.2.0",
     "chalk": "^4.1.0",
     "dedent": "^0.7.0",
     "load-json-file": "^6.2.0",
