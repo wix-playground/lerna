@@ -24,7 +24,7 @@
     "directory": "utils/check-working-tree"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\""
   },
   "dependencies": {
     "@lerna/collect-uncommitted": "6.2.0",
