@@ -14,7 +14,7 @@ const fs = require("fs");
 
 const { Command } = require("@lerna/command");
 const { recommendVersion, updateChangelog } = require("@lerna/conventional-commits");
-const { checkWorkingTree, throwIfUncommitted } = require("@lerna/check-working-tree");
+const { checkWorkingTree, throwIfUncommitted } = require("@wix/lerna-check-working-tree");
 const { promptConfirmation } = require("@lerna/prompt");
 const { output } = require("@lerna/output");
 const { collectUpdates, collectPackages, getPackagesForOption } = require("@lerna/collect-updates");
