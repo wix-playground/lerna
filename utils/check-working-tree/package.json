@@ -38,7 +38,8 @@
     }
   },
   "publishConfig": {
-    "registry": "http://npm.dev.wixpress.com/",
-    "versionBumpStrategy": "manual"
+    "registry": "https://registry.npmjs.org",
+    "versionBumpStrategy": "manual",
+    "access": "public"
   }
 }
